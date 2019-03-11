@@ -2,10 +2,6 @@
 
 //문자열을 더하는 함수를 만들어 봅시다.
 
-function small(a,b){
-    return a < b ? a : b 
-}
-
 function big(a,b){
     return a > b ? a : b 
 }
@@ -23,14 +19,22 @@ function addText(first,second){
     
     for (const i in first) {
         carry = Number.parseInt(first[i]) + Number.parseInt(second[i] || 0) + carry // Pad를 써도 될듯
-        console.log(carry)
+        // console.log(carry)
         ans += carry % 10
         carry = big(Math.floor((carry - carry % 10) / 10) , 0)
     }
-    ans += carry //마지막 받아올림 처리
+    ans += (carry == '0'? '' : carry) //마지막 받아올림 처리
     return ans.split('').reverse().join('')
 }
 
-console.log(addText('157','4'), addText('995','444'))
 
-//시간이 없어서 대강 마무리...
+console.log(addText('157','4'), addText('995','444')) //test
+
+// 03-12 추가
+// 사실 Js에는 강력한 parseInt가 있기에, 다음 방법이 훨 낫다.
+// 위 코드는 C같은 저급 언어에서도 사용할 수 있는 알고리즘을 생각해서 풀어 본 것이다. 실제로 쓴다면 매우 비효율적인 코드
+function simpleAdd(a,b){
+    return Number.parseInt(a) + Number.parseInt(b) + ''
+}
+
+console.log(simpleAdd('157','4')) //test

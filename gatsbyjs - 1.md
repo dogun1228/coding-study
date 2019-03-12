@@ -6,15 +6,15 @@
 
 오늘은 사용할 프로그램과 기술에 대해서 메모해 두고, 내일부터 본격적으로 코드를 짤 것이다.
 
-## [Github](Github.com)
+## [Github](Https://Github.com)
 
 버전 관리 시스템인 Git의 원격 저장소를 무료로 제공해 주는 사이트이다.
 
-## [Netlify](Netlify.com)
+## [Netlify](https://Netlify.com)
 
 정적 사이트를 컴파일해서 호스팅해주는 사이트이다.
 
-## [Gatsbyjs](gatsbyjs.org)
+## [Gatsbyjs](https://gatsbyjs.org)
 
 Node.js와 React를 기반으로 한 정적 웹사이트를 만드는 프레임워크이다.
 Gatsby는 꽤 쓸만한 [튜토리얼](https://www.gatsbyjs.org/tutorial/)을 제공해 준다.

@@ -26,7 +26,7 @@ gatsby develop
 
 이제 사이트에 접속하면 다음과 같은 화면을 보게 된다.
 
-![사진](./img/gatsbyjs-2-1.png)
+![사진](https://raw.githubusercontent.com/dogun1228/coding-study/master/img/gatsbyjs-2-1.PNG)
 
 이 사이트를 우선 깃헙에 업로드한다. 깃헙에 gatsby-site라는 레포지스토리를 만들었다. 업로드 과정은 다음과 같다.
 

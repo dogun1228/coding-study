@@ -5,3 +5,5 @@
 [두 문자열 더하기](https://github.com/dogun1228/coding-study/blob/master/addText.js)
 
 [개츠비로 블로그 만들기 1](https://github.com/dogun1228/coding-study/blob/master/gatsbyjs%20-%201.md)
+
+[개츠비로 블로그 만들기 2](https://github.com/dogun1228/coding-study/blob/master/gatsbyjs%20-%202.md)
